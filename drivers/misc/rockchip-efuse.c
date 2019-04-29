@@ -214,7 +214,7 @@ static int rockchip_efuse_ofdata_to_platdata(struct udevice *dev)
 
 static const struct udevice_id rockchip_efuse_ids[] = {
 	{
-		.compatible = "rockchip,rk3288-efuse",
+		.compatible = "rockchip,rockchip-efuse",
 	},
 	{}
 };
