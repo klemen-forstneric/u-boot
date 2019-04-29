@@ -55,3 +55,7 @@
 &gpio8 {
 	u-boot,dm-pre-reloc;
 };
+
+&efuse {
+	status = "enabled";
+};
