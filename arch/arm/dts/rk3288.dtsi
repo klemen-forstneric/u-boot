@@ -924,7 +924,7 @@
     reg = <0x0 0xffb40000 0x0 0x20>;
     #address-cells = <1>;
     #size-cells = <1>;
-    clocks = <&cru PCLK_EFUSE256>;
+    clocks = <&cru PCLK_EFUSE>;
     clock-names = "pclk_efuse";
     status = "enabled";
 	};
