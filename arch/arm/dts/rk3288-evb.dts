@@ -31,3 +31,7 @@
 &uart2 {
 	reg-shift = <2>;
 };
+
+&efuse {
+	status = "enabled";
+};
